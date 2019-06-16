@@ -1,0 +1,174 @@
+@import	'mixins';
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
+#home{
+	// background: url(../IMG/bghead.png) no-repeat fixed;
+	// background-size: cover;
+	#myVideo {
+	  z-index:-1;
+	  position: fixed;
+	  right: 0;
+	  bottom: 0;
+	  min-width: 100%;
+	  min-height: 100%;
+	}
+}
+// .home{
+// 	background: linear-gradient(to right, rgba(34,184,119,0.5) 0%, rgba(1,83,131,0.5) 100%);
+// 	min-height: 500px;
+// }
+.fixed-top{
+	width: 100%;
+	position: fixed;
+}
+.navbar{
+	transition: 0.6s all ease-in-out;
+    .navbar-brand{
+    	img{
+    		height: auto;
+    		width: 200px;
+    	}
+    }
+}
+#games{
+	.carousel{
+		.carousel-indicators{
+			li{
+				height: 25px;
+				width: 25px;
+				border-radius: 50%;
+			}
+		}
+		.carousel-inner{
+			.carousel-item{
+				img{
+					height: auto;
+					width: 650px;
+					margin-left: 33%;
+					margin-top: 5%;
+				}
+				.reverse{
+					color: $red;
+				}
+				.carousel-caption{
+					h3{
+						font-size: 48px;
+						font-family: 'Faster One', cursive;
+
+					}
+					margin:30px;
+				}
+			}
+		}
+	}
+}
+.phone{
+	height: auto;
+	width: 500px;
+	opacity: 0.9;
+}
+.ht-30{
+	height: 30px;
+}
+.hov-ov{
+	background: transparent;
+}
+.hov-ov:hover{
+	// background: rgba(255,255,255,0.2);
+	background:linear-gradient(to bottom right, rgba(0,0,0,0.9) 0%, rgba(100,100,100,0.3) 25%,rgba(150,150,150,0.5) 50%, rgba(100,100,100,0.3) 75%,rgba(0,0,0,0.9)100%);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: maroon;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: $red;
+}
+.top-nav-collapse{
+	background-color: #000 !important;
+	padding: 20px 0;
+	box-shadow: 0 2px 10px -1px rgba(87,97,100,0.35);
+}
+.head{
+	margin-top: 150px;
+	color: #fff;
+}
+#aboutus .container .row .col-md-6 img{
+	margin-top: 30px;
+	padding: 10px;
+}
+#aboutus .container .row .col-md-6 h2{
+	padding-top: 40px;
+	text-decoration-style: bold;
+	color: $red;
+}
+#aboutus .container .row .col-md-6 p{
+	text-align: left;
+	font-size: 12px;
+	padding-top: 30px;
+	color: #aaa;
+}
+#aboutus .container .row .col-md-6 button{
+	border-radius: 0px;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 30px;
+}
+#aboutus .container .row h3{
+	font-size: 18px;
+	padding-top: 10px;
+	color: $red;
+}
+#aboutus .container .row p{
+	font-size: 12px;
+	padding-top: 10px;
+	color: #aaa;
+}
+.mar{
+	margin-left:600px;
+	color: #ccc;
+	margin-top: 30px;
+}
+#testimonials{
+	margin-top: 50px;
+	background: url(../IMG/testimonialsbg.jpg) no-repeat  fixed;
+	min-height: 400px;	
+	padding: 50px;
+	color: $red;
+}
+.head1{
+	font-size: 72px;
+	color: $red;
+}
+.toppad{
+	padding-top: 20px;
+}
+.mar1{
+	margin-top: 30px;
+}
+#contactus{
+	margin-top: 50px;
+	color: $red;
+	h2{
+		font-size: 48px;
+	}
+}
+footer{
+	background: url(../IMG/footbg.png) no-repeat fixed;
+	background-size: cover;
+	margin-top: 50px;
+}
+#footer{
+    background: rgba(0,0,0,0.7);
+	min-height: 400px;
+	padding-top: 100px;
+}
+footer h3{
+	font-size: 18px;
+}
+footer p{
+	font-size: 12px;
+}
+footer h4{
+	font-size: 16px;
+}
+
