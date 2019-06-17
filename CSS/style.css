@@ -1,4 +1,103 @@
 @import url("https://fonts.googleapis.com/css?family=Faster+One&display=swap");
+@media screen and (min-width: 320px) and (max-width: 670px) {
+  body #home #myVideo {
+    width: auto;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+  body #home .navbar .navbar-toggler {
+    width: auto;
+    height: 30px;
+    color: #f40009; }
+  body #home .navbar .navbar-brand {
+    margin: auto; }
+
+  #games #demo {
+    margin-top: 95px; }
+    #games #demo .carousel-indicators li {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%; }
+    #games #demo .carousel-inner .carousel-item img {
+      width: 100%;
+      height: auto;
+      margin: 0; }
+    #games #demo .carousel-inner .carousel-item #gta-sm {
+      color: black; }
+    #games #demo .carousel-inner .carousel-item .carousel-caption {
+      bottom: -10px; }
+      #games #demo .carousel-inner .carousel-item .carousel-caption h3 {
+        font-size: 22px; }
+      #games #demo .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 13px; }
+
+  #aboutus .container .row h2 {
+    padding-bottom: 15px; }
+  #aboutus .container .row .col-md-6 .phone {
+    width: 100%;
+    height: auto;
+    margin: auto; }
+
+  #features .container .row {
+    color: #f40009; }
+    #features .container .row h2 {
+      margin: auto;
+      padding-bottom: 15px; }
+    #features .container .row .features_icons {
+      padding-bottom: 30px; }
+
+  #testimonials ul li .img-round {
+    width: 30px;
+    height: auto; }
+
+  #contactus .container .row img {
+    width: 100%;
+    margin: auto; }
+  #contactus .container .row #message {
+    width: 100%;
+    height: auto;
+    margin: auto; } }
+@media screen and (min-width: 671px) and (max-width: 1440px) {
+  body #games #demo {
+    margin-top: 95px; }
+    body #games #demo .carousel-indicators li {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%; }
+    body #games #demo .carousel-inner .carousel-item img {
+      width: 100%;
+      height: auto;
+      margin: 0; }
+    body #games #demo .carousel-inner .carousel-item #gta-sm {
+      color: black; }
+    body #games #demo .carousel-inner .carousel-caption {
+      bottom: -10px; }
+      body #games #demo .carousel-inner .carousel-caption h3 {
+        font-size: 32px; }
+      body #games #demo .carousel-inner .carousel-caption p {
+        font-size: 28px; }
+  body #aboutus .container .row h2 {
+    padding-bottom: 15px; }
+  body #aboutus .container .row .col-md-6 .phone {
+    width: 100%;
+    height: auto; }
+  body #aboutus .container .row .col-md-6 p {
+    font-size: 16px; }
+  body #features {
+    color: #f40009; }
+    body #features h3 {
+      font-size: 20px; }
+    body #features p {
+      font-size: 14px; }
+  body #contactus #map {
+    width: 100%;
+    height: auto; }
+  body #contactus #message {
+    width: 100%;
+    height: auto;
+    margin: auto; } }
 #home #myVideo {
   z-index: -1;
   position: fixed;
@@ -34,11 +133,6 @@
     font-size: 48px;
     font-family: 'Faster One', cursive; }
 
-.phone {
-  height: auto;
-  width: 500px;
-  opacity: 0.9; }
-
 .ht-30 {
   height: 30px; }
 
@@ -63,52 +157,58 @@
   margin-top: 150px;
   color: #fff; }
 
-#aboutus .container .row .col-md-6 img {
+#aboutus {
   margin-top: 30px;
   padding: 10px; }
-
-#aboutus .container .row .col-md-6 h2 {
-  padding-top: 40px;
-  text-decoration-style: bold;
-  color: #f40009; }
-
-#aboutus .container .row .col-md-6 p {
-  text-align: left;
-  font-size: 12px;
-  padding-top: 30px;
-  color: #aaa; }
-
-#aboutus .container .row .col-md-6 button {
-  border-radius: 0px;
-  text-align: center;
-  font-size: 16px;
-  margin-top: 30px; }
-
-#aboutus .container .row h3 {
-  font-size: 18px;
-  padding-top: 10px;
-  color: #f40009; }
-
-#aboutus .container .row p {
-  font-size: 12px;
-  padding-top: 10px;
-  color: #aaa; }
+  #aboutus .container .row h2 {
+    text-decoration-style: bold;
+    color: #f40009;
+    margin: auto; }
+  #aboutus .container .row h3 {
+    font-size: 18px;
+    padding-top: 10px;
+    color: #f40009; }
+  #aboutus .container .row .col-md-6 .phone {
+    height: auto;
+    width: 100%;
+    opacity: 0.9; }
+  #aboutus .container .row .col-md-6 p {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 30px;
+    color: #aaa; }
+  #aboutus .container .row .col-md-6 button {
+    border-radius: 0px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px; }
 
 .mar {
   margin-left: 600px;
   color: #ccc;
   margin-top: 30px; }
 
+#features {
+  color: #f40009; }
+
 #testimonials {
   margin-top: 50px;
   background: url(../IMG/testimonialsbg.jpg) no-repeat fixed;
   min-height: 400px;
   padding: 50px;
+  opacity: 0.9;
   color: #f40009; }
-
-.head1 {
-  font-size: 72px;
-  color: #f40009; }
+  #testimonials p {
+    font-size: 22px; }
+  #testimonials .head1 {
+    font-size: 72px;
+    color: #f40009; }
+  #testimonials ul {
+    display: inline-block;
+    list-style: none; }
+    #testimonials ul li {
+      padding: 5px;
+      display: inline-block; }
 
 .toppad {
   padding-top: 20px; }
@@ -126,19 +226,15 @@ footer {
   background: url(../IMG/footbg.png) no-repeat fixed;
   background-size: cover;
   margin-top: 50px; }
-
-#footer {
-  background: rgba(0, 0, 0, 0.7);
-  min-height: 400px;
-  padding-top: 100px; }
-
-footer h3 {
-  font-size: 18px; }
-
-footer p {
-  font-size: 12px; }
-
-footer h4 {
-  font-size: 16px; }
+  footer #footer {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 400px;
+    padding-top: 100px; }
+  footer h3 {
+    font-size: 18px; }
+  footer p {
+    font-size: 12px; }
+  footer h4 {
+    font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

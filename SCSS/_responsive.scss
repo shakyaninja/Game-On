@@ -1,0 +1,190 @@
+// for small devices
+@media screen and (min-width: 320px) and (max-width: 670px){
+	body{
+		#home{
+			#myVideo{
+				width: auto;
+				height: 100%;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: -1;
+			}
+			.navbar{
+				.navbar-toggler{
+					width: auto;
+					height: 30px;
+					color: $red;
+					}
+				.navbar-brand{
+					margin: auto;
+					}
+				}
+			}
+		}
+		#games{
+			#demo{
+				margin-top: 95px;
+				.carousel-indicators{
+					li{
+						width: 15px;
+						height: 15px;
+						border-radius: 50%;
+					}
+				}
+				.carousel-inner{
+					.carousel-item{
+						img{
+							width: 100%;
+							height:auto;
+							margin: 0;
+						}
+						#gta-sm{
+							color: black;
+						}
+						.carousel-caption{
+							bottom:-10px;
+							h3{
+								font-size: 22px;
+							}
+							p{
+								font-size: 13px;
+							}
+						}
+					}
+				}
+			}
+		}
+		#aboutus{
+			.container{
+				.row{
+					h2{
+						padding-bottom: 15px;
+					}
+					.col-md-6{
+						.phone{
+							width: 100%;
+							height: auto;
+							margin: auto;
+						}
+					}
+				}
+			}
+		}
+		#features{
+			.container{
+				.row{
+					color: $red;
+					h2{
+						margin: auto;
+						padding-bottom: 15px; 
+					}
+					.features_icons{
+						padding-bottom: 30px;
+					}
+				}
+			}
+		}
+		#testimonials{
+			ul{
+				li{
+					.img-round{
+						width: 30px;
+						height: auto;
+					}
+				}
+			}
+		}
+		#contactus{
+			.container{
+				.row{
+					img{
+						width: 100%;
+						margin: auto;
+					}
+					#message{
+						width: 100%;
+						height: auto;
+						margin: auto;
+					}
+				}
+			}
+		}
+	}
+// for medium devices
+@media screen and (min-width: 671px) and (max-width: 1440px){
+	body{
+		#games{
+			#demo{
+				margin-top: 95px;
+				.carousel-indicators{
+				li{
+					width: 15px;
+					height: 15px;
+					border-radius: 50%;
+					}
+				}
+				.carousel-inner{
+					.carousel-item{
+						img{
+							width: 100%;
+							height:auto;
+							margin: 0;
+						}
+						#gta-sm{
+							color: black;
+						}
+					}
+					.carousel-caption{
+						bottom:-10px;
+						h3{
+							font-size: 32px;
+						}
+						p{
+							font-size: 28px;
+						}
+					}
+				}
+			}
+		}
+		#aboutus{
+			.container{
+				.row{
+					h2{
+						padding-bottom: 15px;
+					}
+					.col-md-6{
+						.phone{
+							width: 100%;
+							height: auto;
+						}
+						p{
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+		#features{
+			color: $red;
+			h3{
+				font-size: 20px;
+			}
+			p{
+				font-size: 14px;
+			}
+		}
+		#contactus{
+			#map{
+				width: 100%;
+				height: auto;
+			}
+			#message{
+				width: 100%;
+				height: auto;
+				margin: auto;
+			}
+		}
+	}
+}
+
