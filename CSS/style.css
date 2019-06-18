@@ -128,7 +128,93 @@
   body #contactus #message {
     width: 100%;
     height: auto;
-    margin: auto; } }
+    margin: auto; }
+  body #Showcase .order-now {
+    display: block;
+    padding: 0;
+    margin: 0; }
+    body #Showcase .order-now .row .col-md-6 {
+      margin: 0px -8px;
+      padding: 0px; }
+    body #Showcase .order-now .row .discript-block {
+      min-height: 200px;
+      width: 100%;
+      background-color: #107c11 !important;
+      color: #fff; }
+      body #Showcase .order-now .row .discript-block h2 {
+        font-family: 'Faster One', cursive;
+        position: absolute;
+        top: 180px;
+        left: 100px;
+        font-size: 28px; }
+      body #Showcase .order-now .row .discript-block #RDR {
+        position: absolute;
+        top: 180px;
+        left: 60px; }
+      body #Showcase .order-now .row .discript-block a {
+        position: absolute;
+        top: 215px;
+        left: 100px;
+        color: #fff; }
+        body #Showcase .order-now .row .discript-block a h3 {
+          font-size: 20px; }
+      body #Showcase .order-now .row .discript-block a:hover {
+        color: rgba(255, 255, 255, 0.3);
+        text-decoration: none; }
+    body #Showcase .order-now .row .img-hover {
+      width: 100%;
+      height: auto;
+      overflow: hidden; }
+      body #Showcase .order-now .row .img-hover img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease-in-out; }
+      body #Showcase .order-now .row .img-hover:hover img {
+        transform: scale(1.5); }
+  body #Showcase .preorder {
+    display: block;
+    padding: 0;
+    margin: 0; }
+    body #Showcase .preorder .row .col-md-6 {
+      margin: 0px -8px;
+      padding: 0px; }
+    body #Showcase .preorder .row .discript-block {
+      min-height: 200px;
+      width: 100%;
+      background-color: #2e6db4 !important;
+      color: #fff; }
+      body #Showcase .preorder .row .discript-block h2 {
+        font-family: 'Faster One', cursive;
+        position: absolute;
+        top: 180px;
+        left: 100px;
+        font-size: 28px; }
+      body #Showcase .preorder .row .discript-block #legion {
+        position: absolute;
+        top: 180px;
+        left: 60px; }
+      body #Showcase .preorder .row .discript-block a {
+        position: absolute;
+        top: 215px;
+        left: 100px;
+        color: #fff; }
+        body #Showcase .preorder .row .discript-block a h3 {
+          font-size: 20px; }
+      body #Showcase .preorder .row .discript-block a:hover {
+        color: rgba(255, 255, 255, 0.3);
+        text-decoration: none; }
+    body #Showcase .preorder .row .img-hover {
+      width: 100%;
+      height: auto;
+      overflow: hidden; }
+      body #Showcase .preorder .row .img-hover img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease-in-out; }
+      body #Showcase .preorder .row .img-hover:hover img {
+        transform: scale(1.5); }
+  body #Showcase .cards {
+    display: none; } }
 #home #myVideo {
   z-index: -1;
   position: fixed;
@@ -240,6 +326,13 @@
         transform: scale(1.5); }
   #Showcase .cards {
     display: none; }
+
+#game-detail {
+  margin-top: 70px; }
+  #game-detail .container {
+    color: #f40009; }
+    #game-detail .container .Game-detail-title {
+      font-family: 'Faster One', cursive; }
 
 .ht-30 {
   height: 30px; }

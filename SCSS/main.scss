@@ -171,6 +171,15 @@
 		display: none;
 	}
 }
+#game-detail{
+	margin-top: 70px;
+	.container{
+		color: $red;
+		.Game-detail-title{
+			font-family: 'Faster One', cursive;
+		}
+	}
+}
 .ht-30{
 	height: 30px;
 }
