@@ -110,6 +110,50 @@
 				}
 			}
 		}
+		// for best of best page
+		#Showcase{
+			.order-now{
+				display: none;
+			}
+			.preorder{
+				display: none;
+			}
+			.cards{
+				display: block !important;
+				width: 100%;
+				height: auto;
+				margin: auto;
+				color: $white;
+				.card{
+					background-color: $vgreen;
+					margin-bottom: 20px;
+					h4{
+						font-family: 'Faster One', cursive;
+					}
+					a{
+						color: $white;
+					}
+					a:hover{
+						color: rgba(255,255,255,0.7);
+						text-decoration: none; 
+					}
+				}
+				.card-pre{
+					background-color: $cblue;
+					margin-bottom: 20px;
+					h4{
+						font-family: 'Faster One', cursive;
+					}
+					a{
+						color: $white;
+					}
+					a:hover{
+						color: rgba(255,255,255,0.7);
+						text-decoration: none; 
+					}	
+				}
+			}
+		}
 	}
 // for medium devices
 @media screen and (min-width: 671px) and (max-width: 1440px){

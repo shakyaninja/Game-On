@@ -58,7 +58,38 @@
   #contactus .container .row #message {
     width: 100%;
     height: auto;
-    margin: auto; } }
+    margin: auto; }
+
+  #Showcase .order-now {
+    display: none; }
+  #Showcase .preorder {
+    display: none; }
+  #Showcase .cards {
+    display: block !important;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: #fff; }
+    #Showcase .cards .card {
+      background-color: #107c11;
+      margin-bottom: 20px; }
+      #Showcase .cards .card h4 {
+        font-family: 'Faster One', cursive; }
+      #Showcase .cards .card a {
+        color: #fff; }
+      #Showcase .cards .card a:hover {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none; }
+    #Showcase .cards .card-pre {
+      background-color: #2e6db4;
+      margin-bottom: 20px; }
+      #Showcase .cards .card-pre h4 {
+        font-family: 'Faster One', cursive; }
+      #Showcase .cards .card-pre a {
+        color: #fff; }
+      #Showcase .cards .card-pre a:hover {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none; } }
 @media screen and (min-width: 671px) and (max-width: 1440px) {
   body #games #demo {
     margin-top: 95px; }
@@ -105,14 +136,12 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%; }
-
-.fixed-top {
+#home .fixed-top {
   width: 100%;
   position: fixed; }
-
-.navbar {
+#home .navbar {
   transition: 0.6s all ease-in-out; }
-  .navbar .navbar-brand img {
+  #home .navbar .navbar-brand img {
     height: auto;
     width: 200px; }
 
@@ -132,6 +161,85 @@
   #games .carousel .carousel-inner .carousel-item .carousel-caption h3 {
     font-size: 48px;
     font-family: 'Faster One', cursive; }
+
+#Showcase {
+  margin-top: 85px; }
+  #Showcase .order-now {
+    padding: 0;
+    margin: 0; }
+    #Showcase .order-now .row .col-md-6 {
+      margin: 0px -8px;
+      padding: 0px; }
+    #Showcase .order-now .row .discript-block {
+      min-height: 200px;
+      width: 100%;
+      background-color: #107c11 !important;
+      color: #fff; }
+      #Showcase .order-now .row .discript-block h2 {
+        font-family: 'Faster One', cursive;
+        position: absolute;
+        top: 310px;
+        left: 260px;
+        font-size: 48px; }
+      #Showcase .order-now .row .discript-block a {
+        position: absolute;
+        top: 370px;
+        left: 260px;
+        color: #fff; }
+        #Showcase .order-now .row .discript-block a h3 {
+          font-size: 28px; }
+      #Showcase .order-now .row .discript-block a:hover {
+        color: rgba(255, 255, 255, 0.3);
+        text-decoration: none; }
+    #Showcase .order-now .row .img-hover {
+      width: 100%;
+      height: auto;
+      overflow: hidden; }
+      #Showcase .order-now .row .img-hover img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease-in-out; }
+      #Showcase .order-now .row .img-hover:hover img {
+        transform: scale(1.5); }
+  #Showcase .preorder {
+    padding: 0;
+    margin: 0; }
+    #Showcase .preorder .row .col-md-6 {
+      margin: 0px -8px;
+      padding: 0px; }
+    #Showcase .preorder .row .discript-block {
+      min-height: 200px;
+      width: 100%;
+      background-color: #2e6db4 !important;
+      color: #fff; }
+      #Showcase .preorder .row .discript-block h2 {
+        font-family: 'Faster One', cursive;
+        position: absolute;
+        top: 310px;
+        left: 260px;
+        font-size: 48px; }
+      #Showcase .preorder .row .discript-block a {
+        position: absolute;
+        top: 370px;
+        left: 260px;
+        color: #fff; }
+        #Showcase .preorder .row .discript-block a h3 {
+          font-size: 28px; }
+      #Showcase .preorder .row .discript-block a:hover {
+        color: rgba(255, 255, 255, 0.3);
+        text-decoration: none; }
+    #Showcase .preorder .row .img-hover {
+      width: 100%;
+      height: auto;
+      overflow: hidden; }
+      #Showcase .preorder .row .img-hover img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease-in-out; }
+      #Showcase .preorder .row .img-hover:hover img {
+        transform: scale(1.5); }
+  #Showcase .cards {
+    display: none; }
 
 .ht-30 {
   height: 30px; }
@@ -225,7 +333,8 @@
 footer {
   background: url(../IMG/footbg.png) no-repeat fixed;
   background-size: cover;
-  margin-top: 50px; }
+  margin-top: 50px;
+  color: #fff; }
   footer #footer {
     background: rgba(0, 0, 0, 0.7);
     min-height: 400px;

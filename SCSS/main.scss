@@ -13,24 +13,25 @@
 	  min-width: 100%;
 	  min-height: 100%;
 	}
+	.fixed-top{
+		width: 100%;
+		position: fixed;
+	}
+	.navbar{
+		transition: 0.6s all ease-in-out;
+	    .navbar-brand{
+	    	img{
+	    		height: auto;
+	    		width: 200px;
+	    	}
+	    }
+	}
 }
 // .home{
 // 	background: linear-gradient(to right, rgba(34,184,119,0.5) 0%, rgba(1,83,131,0.5) 100%);
 // 	min-height: 500px;
 // }
-.fixed-top{
-	width: 100%;
-	position: fixed;
-}
-.navbar{
-	transition: 0.6s all ease-in-out;
-    .navbar-brand{
-    	img{
-    		height: auto;
-    		width: 200px;
-    	}
-    }
-}
+
 #games{
 	.carousel{
 		.carousel-indicators{
@@ -63,7 +64,113 @@
 		}
 	}
 }
+#Showcase{
+	margin-top: 85px;
+	.order-now{
+		padding: 0;
+		margin: 0;
+		.row{
+			.col-md-6{
+				margin:0px -8px;
+				padding:0px;
+			}
+			.discript-block{
+				min-height: 200px;
+				width: 100%;
+				background-color: $vgreen !important;
+				color: $white;
+				h2{
+					font-family: 'Faster One', cursive;
+					position: absolute;
+					top: 310px;
+					left: 260px;
+					font-size: 48px;
+				}
+				a{
+					position: absolute;
+					top: 370px;
+					left: 260px;
+					color: $white;
+					h3{
+						font-size: 28px;
+					}
+				}
+				a:hover{
+					color: rgba(255,255,255,0.3);
+					text-decoration: none; 
+				}
 
+			}
+			.img-hover{
+				width: 100%;
+				height: auto;
+				overflow: hidden;
+				img{
+					width: 100%;
+					height: auto;
+					transition: transform 0.5s ease-in-out;
+				}
+				&:hover img{
+					transform: scale(1.5);
+				}
+			}
+		}
+	}
+	.preorder{
+		padding: 0;
+		margin: 0;
+		.row{
+			.col-md-6{
+				margin:0px -8px;
+				padding:0px;
+
+			}
+			.discript-block{
+				min-height: 200px;
+				width: 100%;
+				background-color: $cblue !important;
+				color: $white;
+				h2{
+					font-family: 'Faster One', cursive;
+					position: absolute;
+					top: 310px;
+					left: 260px;
+					font-size: 48px;
+				}
+				a{
+					position: absolute;
+					top: 370px;
+					left: 260px;
+					color:$white;
+					h3{
+						font-size: 28px;
+					}
+				}
+				a:hover{
+					color: rgba(255,255,255,0.3);
+					text-decoration: none; 
+				}
+
+			}
+			.img-hover{
+				width: 100%;
+				height: auto;
+				overflow: hidden;
+				img{
+					width: 100%;
+					height: auto;
+					transition: transform 0.5s ease-in-out;
+				}
+				&:hover img{
+					transform: scale(1.5);
+				}
+			}
+		}
+	}
+	.cards{
+		display: none;
+	}
+}
 .ht-30{
 	height: 30px;
 }
@@ -175,6 +282,7 @@ footer{
 	background: url(../IMG/footbg.png) no-repeat fixed;
 	background-size: cover;
 	margin-top: 50px;
+	color: $white;
 	#footer{
 	    background: rgba(0,0,0,0.7);
 		min-height: 400px;
