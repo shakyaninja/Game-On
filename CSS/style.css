@@ -132,7 +132,7 @@
   body #Showcase .order-now {
     display: block;
     padding: 0;
-    margin: 0; }
+    margin: auto; }
     body #Showcase .order-now .row .col-md-6 {
       margin: 0px -8px;
       padding: 0px; }
@@ -143,18 +143,11 @@
       color: #fff; }
       body #Showcase .order-now .row .discript-block h2 {
         font-family: 'Faster One', cursive;
-        position: absolute;
-        top: 180px;
-        left: 100px;
+        margin-left: 25%;
+        margin-top: 40%;
         font-size: 28px; }
-      body #Showcase .order-now .row .discript-block #RDR {
-        position: absolute;
-        top: 180px;
-        left: 60px; }
       body #Showcase .order-now .row .discript-block a {
-        position: absolute;
-        top: 215px;
-        left: 100px;
+        margin-left: 25%;
         color: #fff; }
         body #Showcase .order-now .row .discript-block a h3 {
           font-size: 20px; }
@@ -174,7 +167,7 @@
   body #Showcase .preorder {
     display: block;
     padding: 0;
-    margin: 0; }
+    margin: auto; }
     body #Showcase .preorder .row .col-md-6 {
       margin: 0px -8px;
       padding: 0px; }
@@ -185,18 +178,11 @@
       color: #fff; }
       body #Showcase .preorder .row .discript-block h2 {
         font-family: 'Faster One', cursive;
-        position: absolute;
-        top: 180px;
-        left: 100px;
+        margin-left: 25%;
+        margin-top: 40%;
         font-size: 28px; }
-      body #Showcase .preorder .row .discript-block #legion {
-        position: absolute;
-        top: 180px;
-        left: 60px; }
       body #Showcase .preorder .row .discript-block a {
-        position: absolute;
-        top: 215px;
-        left: 100px;
+        margin-left: 25%;
         color: #fff; }
         body #Showcase .preorder .row .discript-block a h3 {
           font-size: 20px; }
@@ -220,7 +206,7 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  min-width: auto;
   min-height: 100%; }
 #home .fixed-top {
   width: 100%;
@@ -232,8 +218,8 @@
     width: 200px; }
 
 #games .carousel .carousel-indicators li {
-  height: 25px;
-  width: 25px;
+  height: 10px;
+  width: 10px;
   border-radius: 50%; }
 #games .carousel .carousel-inner .carousel-item img {
   height: auto;
@@ -252,7 +238,7 @@
   margin-top: 85px; }
   #Showcase .order-now {
     padding: 0;
-    margin: 0; }
+    margin: auto; }
     #Showcase .order-now .row .col-md-6 {
       margin: 0px -8px;
       padding: 0px; }
@@ -263,16 +249,13 @@
       color: #fff; }
       #Showcase .order-now .row .discript-block h2 {
         font-family: 'Faster One', cursive;
-        position: absolute;
-        top: 310px;
-        left: 260px;
-        font-size: 48px; }
+        font-size: 48px;
+        margin-left: 25%;
+        margin-top: 40%; }
       #Showcase .order-now .row .discript-block a {
-        position: absolute;
-        top: 370px;
-        left: 260px;
         color: #fff; }
         #Showcase .order-now .row .discript-block a h3 {
+          margin-left: 25%;
           font-size: 28px; }
       #Showcase .order-now .row .discript-block a:hover {
         color: rgba(255, 255, 255, 0.3);
@@ -286,10 +269,10 @@
         height: auto;
         transition: transform 0.5s ease-in-out; }
       #Showcase .order-now .row .img-hover:hover img {
-        transform: scale(1.5); }
+        transform: scale(1.3); }
   #Showcase .preorder {
     padding: 0;
-    margin: 0; }
+    margin: auto; }
     #Showcase .preorder .row .col-md-6 {
       margin: 0px -8px;
       padding: 0px; }
@@ -300,16 +283,13 @@
       color: #fff; }
       #Showcase .preorder .row .discript-block h2 {
         font-family: 'Faster One', cursive;
-        position: absolute;
-        top: 310px;
-        left: 260px;
+        margin-left: 25%;
+        margin-top: 40%;
         font-size: 48px; }
       #Showcase .preorder .row .discript-block a {
-        position: absolute;
-        top: 370px;
-        left: 260px;
         color: #fff; }
         #Showcase .preorder .row .discript-block a h3 {
+          margin-left: 25%;
           font-size: 28px; }
       #Showcase .preorder .row .discript-block a:hover {
         color: rgba(255, 255, 255, 0.3);
@@ -323,7 +303,7 @@
         height: auto;
         transition: transform 0.5s ease-in-out; }
       #Showcase .preorder .row .img-hover:hover img {
-        transform: scale(1.5); }
+        transform: scale(1.3); }
   #Showcase .cards {
     display: none; }
 
@@ -361,28 +341,30 @@
 #aboutus {
   margin-top: 30px;
   padding: 10px; }
-  #aboutus .container .row h2 {
-    text-decoration-style: bold;
-    color: #f40009;
-    margin: auto; }
-  #aboutus .container .row h3 {
-    font-size: 18px;
-    padding-top: 10px;
-    color: #f40009; }
-  #aboutus .container .row .col-md-6 .phone {
-    height: auto;
-    width: 100%;
-    opacity: 0.9; }
-  #aboutus .container .row .col-md-6 p {
-    text-align: left;
-    font-size: 12px;
-    padding-top: 30px;
-    color: #aaa; }
-  #aboutus .container .row .col-md-6 button {
-    border-radius: 0px;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 30px; }
+  #aboutus .container .row {
+    margin-top: 10px; }
+    #aboutus .container .row h2 {
+      text-decoration-style: bold;
+      color: #f40009;
+      margin: auto; }
+    #aboutus .container .row h3 {
+      font-size: 18px;
+      padding-top: 10px;
+      color: #f40009; }
+    #aboutus .container .row .col-md-6 .phone {
+      height: auto;
+      width: 100%;
+      opacity: 0.9; }
+    #aboutus .container .row .col-md-6 p {
+      text-align: left;
+      font-size: 16px;
+      padding-top: 30px;
+      color: #aaa; }
+    #aboutus .container .row .col-md-6 button {
+      border-radius: 0px;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 30px; }
 
 .mar {
   margin-left: 600px;
@@ -391,6 +373,10 @@
 
 #features {
   color: #f40009; }
+  #features .row {
+    margin-top: 20px; }
+    #features .row h2 {
+      margin: auto; }
 
 #testimonials {
   margin-top: 50px;
